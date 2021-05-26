@@ -541,57 +541,57 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - Espacio necesario = (capacidad de matriz, que es> = n) * tamaño del elemento, pero incluso si 2n, todavía O (n))
 
 - ### Listas Enlazadas
-    - [ ] Descripción:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+    - [x] Descripción:
+        - [x] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [x] [CS 61B - Linked Lists (video)](https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5)
+    - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - No todo el video, solo porciones acerca de la estructura de nodos y la asignación de memoria.
-    - [ ] Listas enlazadas vs Arreglos:
+    - [x] Listas enlazadas vs Arreglos:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: Necesita tener conocimiento del apuntador a apuntador:
+    - [x] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [x] Gotcha: Necesita tener conocimiento del apuntador a apuntador:
         (Cuando se pasa un apuntador a una función este puede cambiar la dirección a la que el apuntador apunta)
         Esta página es sólo para tener una idea sobre un apuntador a un apuntador. No recomiendo esta lista de estilo transversal. La legibilidad y sostenibilidad sufren debido a la astucia.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implemente (Lo hice con y sin un puntero de cola):
-        - [ ] size() – Regresa el número de elementos en la lista
-        - [ ] empty() – Un bool que regresa verdadero si está vacío
-        - [ ] value_at(index) – Regresa el valor  del el n-avo elemento (iniciando con el  0 como primero)
-        - [ ] push_front(value) – Añade un elemento al frente de la lista
-        - [ ] pop_front() – Elimina el elemento frontal y regresa su valor
-        - [ ] push_back(value) – Añade un elemento al final
-        - [ ] pop_back() – Elimina el último elemento y devuelve su valor
-        - [ ] front() – Obtiene el valor del elemento frontal
-        - [ ] back() – Obtiene el valor del último elemento
-        - [ ] insert(index, value) – Inserta valor en el índice, por lo que el valor actual en ese índice es apuntado al nuevo elemento en el índice
-        - [ ] erase(index) – Borra el nodo del índice dado
+        - [x] size() – Regresa el número de elementos en la lista
+        - [x] empty() – Un bool que regresa verdadero si está vacío
+        - [x] value_at(index) – Regresa el valor  del el n-avo elemento (iniciando con el  0 como primero)
+        - [x] push_front(value) – Añade un elemento al frente de la lista
+        - [x] pop_front() – Elimina el elemento frontal y regresa su valor
+        - [x] push_back(value) – Añade un elemento al final
+        - [x] pop_back() – Elimina el último elemento y devuelve su valor
+        - [x] front() – Obtiene el valor del elemento frontal
+        - [x] back() – Obtiene el valor del último elemento
+        - [x] insert(index, value) – Inserta valor en el índice, por lo que el valor actual en ese índice es apuntado al nuevo elemento en el índice
+        - [x] erase(index) – Borra el nodo del índice dado
         - [ ] value_n_from_end(n) – Regresa el valor del nodo en la n-ava posición a partir del final de la lista
-        - [ ] reverse() – Pone al revés toda la lista
-        - [ ] remove_value(value) – Borra el primer elemento en la lista con ese valor
-    - [ ] Doble lista enlazada
+        - [x] reverse() – Pone al revés toda la lista
+        - [x] remove_value(value) – Borra el primer elemento en la lista con ese valor
+    - [x] Doble lista enlazada
         - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - No es necesario
 - ### Pila
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-    - [ ] No implementaré. Implementando con arreglos es trivial.
+    - [x] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [x] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [x] No implementaré. Implementando con arreglos es trivial.
 
 - ### Cola o fila
-    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
-    - [ ] Implementar usando listas enlazadas, con el puntero de la cola:
+    - [x] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [x] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [x] Implementar usando listas enlazadas, con el puntero de la cola:
         - enqueue(value) – Añade el valor en la posición de la cola
         - dequeue() – Regresa el valor y elimina el valor más recientemente añadido(frontal)
         - empty()
-    - [ ] Implementar usando arreglos de tamaño fijo:
+    - [x] Implementar usando arreglos de tamaño fijo:
         - enqueue(value) – Añade elemento al final del almacenamiento disponible
         - dequeue() – Regresa el valor y elimina el elemento más recientemente añadido
         - empty()
         - full()
-    - [ ] Costo:
+    - [x] Costo:
         - Una mala implementación usando lista enlazada donde se enqueue en la cabeza y dequeue en la cola sería O (n)
              Porque usted necesitaría el siguiente al último elemento, causando un recorrido completo cada dequeue
         - enqueue: O(1) (amortizado, Lista enlazada y arreglo [sondaje])
