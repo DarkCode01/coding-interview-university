@@ -480,23 +480,23 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 
 ## Complejidad algorítmica / Big-O / Análisis asintótico
 - Nada a implementar
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] Skiena:
+- [x] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [x] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [x] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [x] Skiena:
     - [video](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [slides](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
-- [ ] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
-- [ ] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
-- [ ] TopCoder (incluye relaciones de recurrencia y teorema maestro):
+- [x] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
+- [x] [Orders of Growth (video)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+- [x] [Asymptotics (video)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [x] [UC Berkeley Big O (video)](https://youtu.be/VIS4YDpuP98)
+- [x] [UC Berkeley Big Omega (video)](https://youtu.be/ca3e7UVmeUc)
+- [x] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [x] [Illustrating "Big O" (video)](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [x] TopCoder (incluye relaciones de recurrencia y teorema maestro):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [x] [Cheat sheet](http://bigocheatsheet.com/)
 
 
     Si algunas de las lecturas son muy matemáticas puede saltar a la parte inferior y ver las matemáticas discretas para tener el conocimiento base.
@@ -505,7 +505,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
 
 - ### Arreglos
     - Implemente un vector automáticamente redimensionable.
-    - [ ] Descripción:
+    - [x] Descripción:
         - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
         - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
@@ -514,29 +514,29 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
         - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-    - [ ] Implemente un vector (Arreglo mutable con redimensionamiento automático):
-        - [ ] Practique codificar usando arreglos y apuntadores, y un apuntador matemático para saltar a un índice en lugar de utilizar la indexación.
-        - [ ] Nueva arreglo de información primaria con memoria asignada
+    - [x] Implemente un vector (Arreglo mutable con redimensionamiento automático):
+        - [x] Practique codificar usando arreglos y apuntadores, y un apuntador matemático para saltar a un índice en lugar de utilizar la indexación.
+        - [x] Nueva arreglo de información primaria con memoria asignada
             - Puede asignar un arreglo entero, simplemente no use sus características
             - Empiece con 16, o si el número inicial es mayor, use potencias del 2 - 16, 32, 64, 128
-        - [ ] size() – Número de elementos
-        - [ ] capacity() – Número de elementos soportados
-        - [ ] is_empty()
-        - [ ] at(index) – Regresa el elemento al índice dado, falla si el índice esta fuera de sus limites
-        - [ ] push(item)
-        - [ ] insert(index, item) – Inserta el elemento en el índice, intercambia el valor del índice y desplaza los elementos a la derecha
-        - [ ] prepend(item) – Puede usar para insertar encima del índice 0
-        - [ ] pop() – Elimina del final, regresa el valor
-        - [ ] delete(index) – Elimina el elemento en el índice, intercambia todos desplazándolos a la izquierda
-        - [ ] remove(item) – Busca el valor y elimina el índice lo contiene(aunque este en varios lugares)
-        - [ ] find(item) – Busca el valor y regresa el primer índice con ese valor, -1  si no encuentra
-        - [ ] resize(Nueva capacidad) // Función privada
+        - [x] size() – Número de elementos
+        - [x] capacity() – Número de elementos soportados
+        - [x] is_empty()
+        - [x] at(index) – Regresa el elemento al índice dado, falla si el índice esta fuera de sus limites
+        - [x] push(item)
+        - [x] insert(index, item) – Inserta el elemento en el índice, intercambia el valor del índice y desplaza los elementos a la derecha
+        - [x] prepend(item) – Puede usar para insertar encima del índice 0
+        - [x] pop() – Elimina del final, regresa el valor
+        - [x] delete(index) – Elimina el elemento en el índice, intercambia todos desplazándolos a la izquierda
+        - [x] remove(item) – Busca el valor y elimina el índice lo contiene(aunque este en varios lugares)
+        - [x] find(item) – Busca el valor y regresa el primer índice con ese valor, -1  si no encuentra
+        - [x] resize(Nueva capacidad) // Función privada
             - Cuando alcance el límite, redimensiona al doble el tamaño
             - Cuando se haga “pop” a un elemento, si el tamaño es 1/4 de la capacidad, redimensiona a la mitad
-    - [ ] Tiempo
+    - [x] Tiempo
         - O(1) Para añadir/eliminar al final (Amortizado para asignaciones por más espacio), índice o actualización
         - O(n) Para insertar/eliminar donde sea
-    - [ ] Espacio
+    - [x] Espacio
         - Contiguo en la memoria, por lo que la proximidad ayuda al rendimiento
         - Espacio necesario = (capacidad de matriz, que es> = n) * tamaño del elemento, pero incluso si 2n, todavía O (n))
 
@@ -554,7 +554,7 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         (Cuando se pasa un apuntador a una función este puede cambiar la dirección a la que el apuntador apunta)
         Esta página es sólo para tener una idea sobre un apuntador a un apuntador. No recomiendo esta lista de estilo transversal. La legibilidad y sostenibilidad sufren debido a la astucia.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] Implemente (Lo hice con y sin un puntero de cola):
+    - [x] Implemente (Lo hice con y sin un puntero de cola):
         - [x] size() – Regresa el número de elementos en la lista
         - [x] empty() – Un bool que regresa verdadero si está vacío
         - [x] value_at(index) – Regresa el valor  del el n-avo elemento (iniciando con el  0 como primero)
@@ -636,30 +636,30 @@ Escriba código en un pizarrón o en papel no en la computadora. Pruebe con algu
         - Búsqueda binaria usando recursión
 
 - ### Operaciones bit a bit
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
-    - [ ] Obtenga un buen entendimiento de la manipulación de bits con: &, |, ^, ~, >>, <<
-        - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Buena introducción:
+    - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - Debería conocer varias de las potencias de 2 a partir de (2^1 to 2^16 and 2^32)
+    - [x] Obtenga un buen entendimiento de la manipulación de bits con: &, |, ^, ~, >>, <<
+        - [x] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [x] Buena introducción:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
-        - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
-        - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
-        - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
-        - [ ] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
-        - [ ] [The Bit Twiddler](http://bits.stephan-brumme.com/)
-        - [ ] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
-    - [ ] Complemento a uno y dos
+        - [x] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [x] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [x] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [x] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        - [x] [The Bit Twiddler](http://bits.stephan-brumme.com/)
+        - [x] [The Bit Twiddler Interactive](http://bits.stephan-brumme.com/interactive.html)
+    - [x] Complemento a uno y dos
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
         - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
-    - [ ] Contar bits puestos
+    - [x] Contar bits puestos
         - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] Redondeo a la próxima potencia de 2:
+    - [x] Redondeo a la próxima potencia de 2:
         - [Round Up To Next Power Of Two](http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html)
-    - [ ] Valor de intercambio:
+    - [x] Valor de intercambio:
         - [Swap](http://bits.stephan-brumme.com/swap.html)
-    - [ ] Valores absolutos:
+    - [x] Valores absolutos:
         - [Absolute Integer](http://bits.stephan-brumme.com/absInteger.html)
 
 ## Árboles
